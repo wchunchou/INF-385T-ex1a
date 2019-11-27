@@ -30,7 +30,7 @@ imgObj.onload = function(){
 // console.log(image1Value)
 
 // imgObj.src="https://floydesk.com/wp-content/uploads/2019/10/p1.jpg"
-imgObj.src="../assets/images/test1.jpg"
+imgObj.src="images/test1.jpg"
 
 // var imagePath = turkGetParam('image');
 // document.getElementById('myImage').src = imagePath;
