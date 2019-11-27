@@ -9,9 +9,11 @@ document.getElementById("startTask").addEventListener("click", function(){
 var checkbox = document.getElementById("checkboxOp")
 checkbox.addEventListener("click",function(){
     if (checkbox.checked ==true){
-        document.getElementById("imgIsValid").value="false"
+        document.getElementById("imgIsValid").value="InvalidObject"
+        document.getElementById("checkboxOp").value="InvalidObject"
     }else{
-        document.getElementById("imgIsValid").value="true"
+        document.getElementById("imgIsValid").value="ValidObject"
+        document.getElementById("checkboxOp").value="ValidObject"
     }
 })
 
